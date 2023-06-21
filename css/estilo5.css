@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 60px;
+}
+.contenedormenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: 50px;
+    padding: 15px;
+    align-items: center;
+}
+nav a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 25px;
+}
+nav a:hover{
+    background-color: black;
+    padding: 25px;
+}
+.imagen{
+    width: 1340px;
+    height: 550px;
+}
+.b{
+    color: rgb(5, 5, 100);
+    text-align: center;
+    font-family: 'Alfa Slab One' ;
+}
+.Cajas{
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'DM Sans', sans-serif;
+}
+.subtitulo{
+    color: rgb(5, 5, 100);
+    text-align: center;
+}
+.Cajas_hija1{
+    color: rgb(48, 45, 45);
+    background-color: azure;
+    margin: 15px;
+}
+.Cajas_hija2{
+    color: rgb(48, 45, 45);
+    background-color:  azure;
+    margin: 15px;
+}
+.sub1{
+    color: rgb(28, 28, 161);
+}
+.bloque{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.bloque_2{
+    color: rgb(5, 5, 100);    
+    padding: 10px;
+}
+.h{
+    border-radius: 10px;
+    background-color: blue;
+    color: yellow;
+    height: 50px;
+    width: 400px;
+}
+.h:hover{
+    background-color: rgb(70, 119, 211);
+}
+/*CONTENIDO FOOTER*/
+.Cajafooter{
+    display: flex;
+    color: yellow;
+    font-family: 'DM Sans', sans-serif;
+    background-color: blue;    
+}
+[variable="bloque_1"]{
+    margin: 35px;
+    padding: 20px;
+}
+.AA{
+    color: white;
+    list-style: none;
+}
